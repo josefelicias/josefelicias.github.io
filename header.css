@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Rowdies:wght@300;400;700&display=swap');
+
+body
+    {
+    font-size: 170%;
+    font-family: "Rowdies", sans-serif; 
+    
+    
+}
+
+main
+    {
+    margin: 25px;
+}
+
+nav li a
+    {
+    padding: 70px;
+   text-align: center;
+    justify-content: center;
+    text-decoration: none;
+   
+    color: black;
+
+}
+
+nav li {
+    display: inline;
+}
+#btnWork{padding-right: 500px;}
+
