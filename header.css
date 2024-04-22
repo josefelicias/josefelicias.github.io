@@ -1,31 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Rowdies:wght@300;400;700&display=swap');
 
-body
-    {
-    font-size: 170%;
+header{
+    font-size: 2em;
     font-family: "Rowdies", sans-serif; 
-    
-    
+    position: fixed;
+    width: 100%;
+    background-color: aliceblue;
 }
 
-main
-    {
-    margin: 25px;
+nav button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none; 
 }
 
-nav li a
-    {
-    padding: 70px;
-   text-align: center;
-    justify-content: center;
-    text-decoration: none;
-   
-    color: black;
-
+nav button img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
+
 
 nav li {
     display: inline;
+    float: right;
+    padding-right: 8vw;
 }
-#btnWork{padding-right: 500px;}
+
+nav li a{
+   
+   text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    padding-left: 1vw;
+    padding-top: 110px;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 98vw;
+}
+
+.container img{
+    width: 23.8vw;
+}
+
+@media only screen and (max-width: 900px){ 
+    .container{
+        width: 98vw;
+        float: left;
+    }
+    .container img{
+        width: 31.2vw;
+    }
+}
+
+@media only screen and (max-width: 600px){ 
+    .container{
+        width: 98vw;
+        float: left;
+    }
+    .container img{
+        width: 45.9vw;
+    }
+}
 
