@@ -1,0 +1,35 @@
+header button{
+    
+    background-color: transparent;
+    border: transparent;
+    position: fixed;
+   
+}
+
+header button img{
+    border-radius: 50%;
+    width: 6vh;
+ 
+}
+
+html
+{
+scroll-behavior: smooth;
+}
+
+footer button{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+    background-color: transparent;
+    border: transparent;
+    
+}
+
+footer button img{
+    border-radius: 50%;
+    width: 6vh;
+   text-align: right;
+   
+}
