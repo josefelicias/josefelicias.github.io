@@ -1,15 +1,16 @@
 header button{
-    
+    position: fixed;
+    padding: 15px;
     background-color: transparent;
     border: transparent;
-    position: fixed;
+    z-index: 1;
    
 }
 
 header button img{
     border-radius: 50%;
     width: 6vh;
- 
+    text-align: right;
 }
 
 html
