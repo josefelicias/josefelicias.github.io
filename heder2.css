@@ -10,7 +10,7 @@ body{
 
 header{
     position: fixed;                        /*header seguir quando damos scroll*/               
-    height: 12vh;                           /*aumenta o tamanho da barra*/
+    height: 65px;                           /*aumenta o tamanho da barra*/
     width: 100%;                            /*tamanho da barra header*/
     display: flex;                          /*flex para não ficarem no centro*/
     align-items: center;                    /*colocar no centro*/
@@ -53,7 +53,7 @@ header{
     
 main{
     padding-left: 1vw;                      /*padding para a esquerda com a medida viewport weight*/
-    padding-top: 13vh;                      /*padding para cima com a medida viewport heigth*/
+    padding-top: 70px;                      /*padding para cima com a medida viewport heigth*/
     font-size: 1em;                         /*tamanho da letra*/
 }
 
@@ -78,6 +78,9 @@ main{
         width: 47vw;                        /*tamanho da imagem aumenta fazendo a outra ir para baixo formando 2 filas*/ 
     }
     
+    .logo{                   
+        padding-right: 0;                   /*padding para a direita 0*/
+    }
     .nav-links li a{
         padding: 0;                         /*padding 0*/
         font-size: 23px;                    /*tamanho da letra*/
