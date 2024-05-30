@@ -1,36 +1,50 @@
+/*    José Francisco Feliciano / Nº3210446 / PORTFÓLIO / 3ºAno Letivo, 2023-2024 / 2º Semestre / Laboratório de Projeto II / Licenciatura em Design Gráfico e Multimédia / Escola Superior de Artes e Design / Marco heleno / 30/05/2024  */
+
 header button{
-    position: fixed;
-    padding: 15px;
-    background-color: transparent;
-    border: transparent;
-    z-index: 1;
-   
+    position: fixed;                        /*header seguir quando damos scroll*/
+    padding: 15px;                          /*caixa de 15 pixeis à volta do butão*/
+    background-color: transparent;          /*cor de fundo transparente*/
+    border: transparent;                    /*borda transparente*/
+    z-index: 1;                             /*coloca o botão á frente*/
 }
 
 header button img{
-    border-radius: 50%;
-    width: 6vh;
-    text-align: right;
+    border-radius: 50%;                     /*imagem fica em circulo*/
+    width: 6vh;                             /*tamanho da imagem*/                  
 }
 
-html
-{
-scroll-behavior: smooth;
+html{
+    scroll-behavior: smooth;                /*quando clico no botão para ir para o topo da pagina do footer vai smooth em vez de teletransportar para cima*/
+}
+
+body{
+    margin: 0;                              /*sem margem*/                           
 }
 
 footer button{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 15px;
-    background-color: transparent;
-    border: transparent;
+    position: fixed;                        /*footer seguir quando damos scroll*/
+    bottom: 0;                              /*vai para o final da página*/
+    right: 0;                               /*vai para a direita da página*/
+    padding: 15px;                          /*caixa de 15 pixeis à volta do butão*/
+    background-color: transparent;          /*cor de fundo transparente*/
+    border: transparent;                    /*borda transparente*/
     
 }
 
 footer button img{
-    border-radius: 50%;
-    width: 6vh;
-   text-align: right;
-   
+    border-radius: 50%;                     /*imagem fica em circulo*/
+    width: 6vh;                             /*tamanho da imagem*/   
+}
+
+@media only screen and (max-width: 600px){  /*só influência quando o ecrâ tem no máximo 600 pixeis*/
+
+
+    header button{
+        visibility: hidden;                 /*esconde o butão*/
+    }
+
+    footer button{
+        visibility: hidden;                 /*esconde o botão*/
+    }
+
 }

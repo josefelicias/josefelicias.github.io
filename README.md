@@ -1,4 +1,13 @@
-José Feliciano nª3210446
+José Francisco Feliciano
+Nº3210446
+PORTFÓLIO
+3º, 2023-2024
+2º Semestre
+Laboratório de Projeto II
+Licenciatura em Design Gráfico e Multimédia
+Escola Superior de Artes e Design
+Marco heleno 
+30/05/2024
 
 Justificação de escolha de elementos e atributos
 header " colocar o cabeçalho, about e shop"
