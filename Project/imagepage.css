@@ -19,7 +19,7 @@ html{
 
 body{
     margin: 0;                              /*sem margem*/  
-   
+   margin-left: 0.3vw;
     .container{
         width: 100vw;                            /*tamanho da caixa das imagens*/
     }
