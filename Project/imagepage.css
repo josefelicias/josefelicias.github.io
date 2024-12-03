@@ -18,7 +18,24 @@ html{
 }
 
 body{
-    margin: 0;                              /*sem margem*/                           
+    margin: 0;                              /*sem margem*/  
+   
+    .container{
+        width: 100vw;                            /*tamanho da caixa das imagens*/
+    }
+    
+    .container img{
+        width: 33vw;                            /*tamanho da imagem*/
+    }
+    
+    @media only screen and (max-width: 900px){  /*só influência quando o ecrâ tem no máximo 900 pixeis*/
+    
+        .container img{
+            width: 31.7vw;                      /*tamanho da imagem aumenta fazendo a outra ir para baixo formando 3 filas*/ 
+        }
+    }
+    
+                    
 }
 
 footer button{
