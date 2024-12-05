@@ -20,12 +20,21 @@ html{
 body{
     margin: 0;                              /*sem margem*/  
    margin-left: 0.3vw;
+
     .container{
         width: 100vw;                            /*tamanho da caixa das imagens*/
     }
-    
+        
     .container img{
         width: 33vw;                            /*tamanho da imagem*/
+    }
+
+    .galery{
+        width: 100vw;
+    }
+
+    .gallery img{
+        width: 49.38vw;
     }
     
     @media only screen and (max-width: 900px){  /*só influência quando o ecrâ tem no máximo 900 pixeis*/
@@ -33,8 +42,16 @@ body{
         .container img{
             width: 31.7vw;                      /*tamanho da imagem aumenta fazendo a outra ir para baixo formando 3 filas*/ 
         }
+        .gallery img{
+            width: 48vw;                        /*tamanho da imagem aumenta fazendo a outra ir para baixo formando 2 filas*/ 
+        }
     }
-    
+    @media only screen and (max-width: 600px){  /*só influência quando o ecrâ tem no máximo 600 pixeis*/
+
+        .gallery img{
+            width: 48vw;                        /*tamanho da imagem aumenta fazendo a outra ir para baixo formando 2 filas*/ 
+        }
+    }
                     
 }
 
