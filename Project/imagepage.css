@@ -49,7 +49,8 @@ body{
     @media only screen and (max-width: 600px){  /*só influência quando o ecrâ tem no máximo 600 pixeis*/
 
         .gallery img{
-            width: 48vw;                        /*tamanho da imagem aumenta fazendo a outra ir para baixo formando 2 filas*/ 
+            width: 48vw;  
+                              /*tamanho da imagem aumenta fazendo a outra ir para baixo formando 2 filas*/ 
         }
     }
                     
